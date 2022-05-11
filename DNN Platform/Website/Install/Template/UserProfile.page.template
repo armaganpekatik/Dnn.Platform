@@ -24,8 +24,14 @@
         <permission>
           <permissioncode>SYSTEM_TAB</permissioncode>
           <permissionkey>VIEW</permissionkey>
-          <allowaccess>true</allowaccess>
+          <allowaccess>false</allowaccess>
           <rolename>All Users</rolename>
+        </permission>
+        <permission>
+          <permissioncode>SYSTEM_TAB</permissioncode>
+          <permissionkey>VIEW</permissionkey>
+          <allowaccess>true</allowaccess>
+          <rolename>Registered Users</rolename>
         </permission>
         <permission>
           <permissioncode>SYSTEM_TAB</permissioncode>
@@ -72,8 +78,14 @@
                 <permission>
                   <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
                   <permissionkey>VIEW</permissionkey>
-                  <allowaccess>true</allowaccess>
+                  <allowaccess>false</allowaccess>
                   <rolename>All Users</rolename>
+                </permission>
+                <permission>
+                  <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+                  <permissionkey>VIEW</permissionkey>
+                  <allowaccess>true</allowaccess>
+                  <rolename>Registered Users</rolename>
                 </permission>
                 <permission>
                   <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
@@ -119,7 +131,7 @@
                 <permission>
                   <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
                   <permissionkey>VIEW</permissionkey>
-                  <allowaccess>true</allowaccess>
+                  <allowaccess>false</allowaccess>
                   <rolename>All Users</rolename>
                 </permission>
                 <permission>
@@ -133,6 +145,12 @@
                   <permissionkey>EDIT</permissionkey>
                   <allowaccess>true</allowaccess>
                   <rolename>Administrators</rolename>
+                </permission>
+                <permission>
+                  <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+                  <permissionkey>VIEW</permissionkey>
+                  <allowaccess>true</allowaccess>
+                  <rolename>Registered Users</rolename>
                 </permission>
                 <permission>
                   <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
